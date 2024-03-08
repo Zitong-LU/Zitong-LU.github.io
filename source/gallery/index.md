@@ -1,7 +1,6 @@
 ---
 title: GALLERY
 date: 2022-11-17 12:10:21
-permalink: index.html
 mathjax: false
 --- 
 

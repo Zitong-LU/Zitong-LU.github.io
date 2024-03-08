@@ -154,11 +154,11 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon. 
 social:
-  ORCiD: Https://orcid.org/0000-0002-3287-7363 || fa-brands fa-orcid
   E-Mail: mailto:zitonglu2-c@my.cityu.edu.hk || fa fa-envelope
-  GitHub: https://github.com/Zitong-LU || fab fa-github
-  # Bilibili: https://space.bilibili.com/30358707 || fa-brands fa-bilibili
   Scholar: https://scholar.google.com/citations?user=3_y9ZhMAAAAJ&hl=en || fa-brands fa-google
+  GitHub: https://github.com/Zitong-LU || fab fa-github
+  ORCiD: Https://orcid.org/0000-0002-3287-7363 || fa-brands fa-orcid
+  # Bilibili: https://space.bilibili.com/30358707 || fa-brands fa-bilibili
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -192,7 +192,7 @@ toc:
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
   # Maximum heading depth of generated toc.
   max_depth: 6
 

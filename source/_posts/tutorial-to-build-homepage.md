@@ -264,7 +264,15 @@ npm remove hexo-generator-index-pin-top
 ---
 layout: page
 title: homepage
+permalink: index.html
 ---
+```
+3. Open `_config.next.yml`, 
+```yml
+# index_generator:
+#   path: about
+#   per_page: 0
+#   order_by: -date
 ```
 
 

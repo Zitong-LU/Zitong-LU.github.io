@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/uploads/favicon/apple_touch_icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/uploads/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/uploads/favicon/safari_pinned_tab.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"zitong-lu.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Getting start Overview  Hexo  Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other markup languages) and Hexo generates static files with a beautiful theme in seco">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Brief Tutorial to Build Homepage">
+<meta property="og:url" content="http://zitong-lu.github.io/2022/11/11/tutorial-to-build-homepage/index.html">
+<meta property="og:site_name" content="Zitong LU">
+<meta property="og:description" content="Getting start Overview  Hexo  Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other markup languages) and Hexo generates static files with a beautiful theme in seco">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-11-11T13:54:11.000Z">
+<meta property="article:modified_time" content="2024-03-08T09:31:26.434Z">
+<meta property="article:author" content="Zitong LU">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Tutorial">
+<meta property="article:tag" content="Homepage">
+<meta property="article:tag" content="NexT-theme">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://zitong-lu.github.io/2022/11/11/tutorial-to-build-homepage/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://zitong-lu.github.io/2022/11/11/tutorial-to-build-homepage/","path":"2022/11/11/tutorial-to-build-homepage/","title":"A Brief Tutorial to Build Homepage"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>A Brief Tutorial to Build Homepage | Zitong LU</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Zitong LU</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Hanc marginis exiguitas non caperet.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#getting-start"><span class="nav-number">1.</span> <span class="nav-text">Getting start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#overview"><span class="nav-number">1.1.</span> <span class="nav-text">Overview</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#requirements"><span class="nav-number">1.1.1.</span> <span class="nav-text">Requirements</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#install-hexo"><span class="nav-number">1.1.2.</span> <span class="nav-text">Install Hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#initialize-hexo"><span class="nav-number">1.1.3.</span> <span class="nav-text">Initialize Hexo</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#install-next-theme"><span class="nav-number">1.1.4.</span> <span class="nav-text">Install NexT Theme</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#config-file"><span class="nav-number">1.1.5.</span> <span class="nav-text">Config File</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#setup-deployment"><span class="nav-number">1.1.6.</span> <span class="nav-text">Setup Deployment</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#customize-your-site"><span class="nav-number">1.2.</span> <span class="nav-text">Customize Your Site</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#add-an-avatar"><span class="nav-number">1.2.1.</span> <span class="nav-text">Add an Avatar</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#add-tags-menu"><span class="nav-number">1.2.2.</span> <span class="nav-text">Add tags menu</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#add-categories-menu"><span class="nav-number">1.2.3.</span> <span class="nav-text">Add categories Menu</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#create-a-custom-homepage"><span class="nav-number">1.2.4.</span> <span class="nav-text">Create a custom homepage</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#maintain-homepage"><span class="nav-number">2.</span> <span class="nav-text">Maintain Homepage</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-command"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo Command</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#one-command-deploy"><span class="nav-number">2.1.1.</span> <span class="nav-text">one command deploy</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#preview-website"><span class="nav-number">2.1.2.</span> <span class="nav-text">preview website</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#writing-articles"><span class="nav-number">2.2.</span> <span class="nav-text">Writing Articles</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#new-article"><span class="nav-number">2.2.1.</span> <span class="nav-text">new article</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#article-folding-in-home-page"><span class="nav-number">2.2.2.</span> <span class="nav-text">article folding in home page</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#tags"><span class="nav-number">2.2.3.</span> <span class="nav-text">tags</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#categories"><span class="nav-number">2.2.4.</span> <span class="nav-text">categories</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#math-equation"><span class="nav-number">2.2.5.</span> <span class="nav-text">math equation</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#images"><span class="nav-number">2.2.6.</span> <span class="nav-text">images</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#add-tabs"><span class="nav-number">2.2.7.</span> <span class="nav-text">add tabs</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#upgrading"><span class="nav-number">2.3.</span> <span class="nav-text">Upgrading</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#upgrading-next"><span class="nav-number">2.3.1.</span> <span class="nav-text">upgrading NexT</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Zitong LU"
+      src="/uploads/selection_bias.png">
+  <p class="site-author-name" itemprop="name">Zitong LU</p>
+  <div class="site-description" itemprop="description">Zitong LU's homepage</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="mailto:zitonglu2-c@my.cityu.edu.hk" title="E-Mail → mailto:zitonglu2-c@my.cityu.edu.hk" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://scholar.google.com/citations?user=3_y9ZhMAAAAJ&hl=en" title="Scholar → https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user&#x3D;3_y9ZhMAAAAJ&amp;hl&#x3D;en" rel="noopener me" target="_blank"><i class="fa-brands fa-google fa-fw"></i>Scholar</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/Zitong-LU" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Zitong-LU" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://orcid.org/0000-0002-3287-7363" title="ORCiD → Https:&#x2F;&#x2F;orcid.org&#x2F;0000-0002-3287-7363" rel="noopener me" target="_blank"><i class="fa-brands fa-orcid fa-fw"></i>ORCiD</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://zitong-lu.github.io/2022/11/11/tutorial-to-build-homepage/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/selection_bias.png">
+      <meta itemprop="name" content="Zitong LU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Zitong LU">
+      <meta itemprop="description" content="Zitong LU's homepage">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="A Brief Tutorial to Build Homepage | Zitong LU">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          A Brief Tutorial to Build Homepage
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2022-11-11 21:54:11" itemprop="dateCreated datePublished" datetime="2022-11-11T21:54:11+08:00">2022-11-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2024-03-08 17:31:26" itemprop="dateModified" datetime="2024-03-08T17:31:26+08:00">2024-03-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Tutorial/" itemprop="url" rel="index"><span itemprop="name">Tutorial</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Tutorial/Homepage/" itemprop="url" rel="index"><span itemprop="name">Homepage</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Tutorial/Homepage/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="getting-start">Getting start</h2>
+<h3 id="overview">Overview</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a>
+<ul>
+<li>Hexo is a fast, simple and powerful blog framework. You write posts
+in Markdown (or other markup languages) and Hexo generates static files
+with a beautiful theme in seconds.</li>
+<li>home</li>
+</ul></li>
+<li><a target="_blank" rel="noopener" href="https://theme-next.js.org">NexT</a>
+<ul>
+<li>NexT is a high quality elegant theme for Hexo. It is crafted from
+scratch, with love.</li>
+</ul></li>
+</ul>
+<span id="more"></span>
+<h4 id="requirements">Requirements</h4>
+<p>Installing Hexo is quite easy and only requires the following
+beforehand: - <a target="_blank" rel="noopener" href="http://nodejs.org/">Node.js</a> - <a
+target="_blank" rel="noopener" href="http://git-scm.com/">Git</a></p>
+<h4 id="install-hexo">Install Hexo</h4>
+<p>Once all the requirements are installed, you can install Hexo with
+npm: <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>If meet access errors, run the following code installed:
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install --unsafe-perm --verbose -g hexo </span><br></pre></td></tr></table></figure> ### Setup</p>
+<h4 id="initialize-hexo">Initialize Hexo</h4>
+<p>Once Hexo is installed, run the following commands to initialize Hexo
+in the target <code>&lt;site-folder&gt;</code>. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;github&gt;</span><br><span class="line">hexo init &lt;site-folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;site-folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure> When using
+github.io to build your blog, you can replace your
+<code>&lt;site-folder&gt;</code> with
+<code>&lt;username&gt;.github.io</code>. - Reminder: please run the code
+above when there is no folder named as
+<code>&lt;site-folder&gt;</code>.</p>
+<p>Once initialized, here’s what your project folder will look like:
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure></p>
+<h4 id="install-next-theme">Install NexT Theme</h4>
+<p>If you're using Hexo 5.0 or later, the simplest way to install is
+through <code>npm</code>. Open your Terminal, change to Hexo <mark>site
+root directory</mark> and install NexT theme: <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;site-folder&gt;</span><br><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure></p>
+<h4 id="config-file">Config File</h4>
+<ol type="1">
+<li>Prepare the <mark>NexT config file</mark> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line"><span class="built_in">cp</span> node_modules/hexo-theme-next/_config.yml _config.next.yml </span><br></pre></td></tr></table></figure></li>
+<li>Edit <mark>Hexo config file</mark>. Open <code>_config.yml</code>,
+and edit <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">This</span> <span class="string">is</span> <span class="string">title</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">This</span> <span class="string">is</span> <span class="string">subtitle</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">This</span> <span class="string">is</span> <span class="string">description</span></span><br><span class="line"><span class="attr">keywords:</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">Alice</span> <span class="string">Bob</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">en</span> <span class="comment"># zh-CN</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://&lt;username&gt;.github.io</span> <span class="comment">#http://example.com</span></span><br></pre></td></tr></table></figure> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">repo:</span> <span class="string">https://github.com/&lt;username&gt;/&lt;username&gt;.github.io</span></span><br><span class="line"><span class="comment"># example, https://github.com/hexojs/hexojs.github.io</span></span><br><span class="line"><span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure></li>
+<li>Install <a
+target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git"><code>hexo-deployer-git</code></a>.
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li>Edit <mark>NexT config file</mark>. Open
+<code>_config.next.yml</code>.
+<ol type="1">
+<li>choose your preferred scheme by deleting the <code>#</code> before
+the scheme and add <code>#</code> befor others. <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment"># Schemes</span></span><br><span class="line">    <span class="comment"># scheme: Muse</span></span><br><span class="line">    <span class="comment">#scheme: Mist</span></span><br><span class="line">    <span class="attr">scheme:</span> <span class="string">Pisces</span></span><br><span class="line">    <span class="comment">#scheme: Gemini</span></span><br><span class="line">    <span class="string">```</span>  </span><br><span class="line"><span class="number">2</span><span class="string">.</span> <span class="string">You</span> <span class="string">can</span> <span class="string">run</span> <span class="string">the</span> <span class="string">code</span> <span class="string">to</span> <span class="string">preview</span> <span class="string">your</span> <span class="string">website</span> <span class="string">locally.</span></span><br><span class="line">    <span class="string">```bash</span></span><br><span class="line">    <span class="string">hexo</span> <span class="string">server</span></span><br></pre></td></tr></table></figure></li>
+</ol></li>
+</ol>
+<h4 id="setup-deployment">Setup Deployment</h4>
+<ol type="1">
+<li>Create a repo named <code>&lt;username&gt;.github.io</code>, where
+<code>&lt;username&gt;</code> is your username on GitHub. If you have
+already uploaded to other repo, rename the repo instead.</li>
+<li>Push the files of your Hexo folder to the default branch of your
+repository. The default branch is usually <strong>main</strong>, older
+repository may use <strong>master</strong> branch.
+<ul>
+<li>The <code>public/</code> folder is not (and should not be) uploaded
+by default, make sure the <code>.gitignore</code> file contains
+<code>public/</code> line.</li>
+</ul></li>
+<li>Check what version of Node.js you are using on your local machine
+with <code>node --version</code>. Make a note of the major version
+(e.g., <code>v16.y.z</code>)</li>
+<li>Create <code>.github/workflows/pages.yml</code> in your repo with
+the following contents (substituting <code>16</code> to the major
+version of Node.js that you noted in previous step): <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">Pages</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">main</span>  <span class="comment"># default branch</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">pages:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">uses:</span> <span class="string">actions/checkout@v3</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">token:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.GITHUB_TOKEN</span> <span class="string">&#125;&#125;</span></span><br><span class="line">          <span class="comment"># If your repository depends on submodule, please see: https://github.com/actions/checkout</span></span><br><span class="line">          <span class="attr">submodules:</span> <span class="string">recursive</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Use</span> <span class="string">Node.js</span> <span class="number">16.</span><span class="string">x</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">actions/setup-node@v2</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">node-version:</span> <span class="string">&#x27;16&#x27;</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Cache</span> <span class="string">NPM</span> <span class="string">dependencies</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">actions/cache@v2</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">path:</span> <span class="string">node_modules</span></span><br><span class="line">          <span class="attr">key:</span> <span class="string">$&#123;&#123;</span> <span class="string">runner.OS</span> <span class="string">&#125;&#125;-npm-cache</span></span><br><span class="line">          <span class="attr">restore-keys:</span> <span class="string">|</span></span><br><span class="line"><span class="string">            $&#123;&#123; runner.OS &#125;&#125;-npm-cache</span></span><br><span class="line"><span class="string"></span>      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Install</span> <span class="string">Dependencies</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">npm</span> <span class="string">install</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Build</span></span><br><span class="line">        <span class="attr">run:</span> <span class="string">npm</span> <span class="string">run</span> <span class="string">build</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span></span><br><span class="line">        <span class="attr">uses:</span> <span class="string">peaceiris/actions-gh-pages@v3</span></span><br><span class="line">        <span class="attr">with:</span></span><br><span class="line">          <span class="attr">github_token:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.GITHUB_TOKEN</span> <span class="string">&#125;&#125;</span></span><br><span class="line">          <span class="attr">publish_dir:</span> <span class="string">./public</span></span><br></pre></td></tr></table></figure></li>
+<li>One-command deployment Run <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure></li>
+<li>Once the deployment is finished, the generated pages can be found in
+the <code>gh-pages</code> branch of your repository.</li>
+<li>In your GitHub repo’s setting, navigate to <strong>Settings &gt;
+Pages &gt; Source</strong>. Change the branch to <code>gh-pages</code>
+and save.</li>
+<li>Check the webpage at <em>username.github.io</em>.</li>
+</ol>
+<h3 id="customize-your-site">Customize Your Site</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;site-folder&gt; </span><br></pre></td></tr></table></figure>
+<h4 id="add-an-avatar">Add an Avatar</h4>
+<ol type="1">
+<li>Create folder <code>source/uploads</code>.</li>
+<li>Save your avatar image <code>avatar.png</code> in
+<code>source/uploads</code>.</li>
+<li>Edit <code>_config.next.yml</code> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Sidebar Avatar</span></span><br><span class="line"><span class="attr">avatar:</span></span><br><span class="line">  <span class="comment"># Replace the default image and set the url here.</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">/uploads/avatar.png</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be displayed in circle.</span></span><br><span class="line">  <span class="attr">rounded:</span> <span class="literal">false</span></span><br><span class="line">  <span class="comment"># If true, the avatar will be rotated with the cursor.</span></span><br><span class="line">  <span class="attr">rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure> #### Add
+<code>about</code> menu If you want to add <code>about</code> menu and
+<code>about</code> page,</li>
+<li>Run the code <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure></li>
+<li>Open <code>source/about/index.md</code>, and write something you
+want.</li>
+<li>Open <code>_config.next.yml</code>, add the <code>about:</code> code
+in <code>menu:</code> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span> </span><br><span class="line">  <span class="attr">about:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-user</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h4 id="add-tags-menu">Add <code>tags</code> menu</h4>
+<p>If you want to add <code>tags</code> menu, 1. Run the code
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure> 2. Open <code>source/tags/index.md</code>, and add
+<code>type: tags</code> <figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">date: 2022-11-11 19:56:45</span><br><span class="line"><span class="section">type: tags</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure> You don't need edit this page. 3.
+Open <code>_config.next.yml</code>, add the <code>tags:</code> code in
+<code>menu:</code> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span> </span><br><span class="line">  <span class="attr">tags:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-tags</span></span><br></pre></td></tr></table></figure> 4. If you want to add tags for other
+pages, see <a href="#maintain-homepage">Maintain Homepage</a> for
+details.</p>
+<h4 id="add-categories-menu">Add <code>categories</code> Menu</h4>
+<p>If you want to add <code>categories</code> menu, 1. Run the code
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure> 2. Open <code>source/tags/index.md</code>, and add
+<code>type: tags</code> <figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">date: 2022-11-11 20:41:43</span><br><span class="line"><span class="section">type: categories</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure> 3. Open
+<code>_config.next.yml</code>, add the <code>categories:</code> code in
+<code>menu:</code> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span> </span><br><span class="line">  <span class="attr">categories:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fa</span> <span class="string">fa-th</span></span><br></pre></td></tr></table></figure> 4. If you want to add categories for
+other pages, see <a href="#maintain-homepage">Maintain Homepage</a> for
+details.</p>
+<h4 id="create-a-custom-homepage">Create a custom homepage</h4>
+<ol type="1">
+<li>Remove the hexo-generator-index package <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm remove hexo-generator-index</span><br><span class="line">npm remove hexo-generator-index-pin-top</span><br></pre></td></tr></table></figure></li>
+<li>You can now put your index page in <code>/source/index.md</code>.
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: page</span><br><span class="line">title: homepage</span><br><span class="line"><span class="section">permalink: index.html</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure></li>
+<li>Open <code>_config.next.yml</code>, <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># index_generator:</span></span><br><span class="line"><span class="comment">#   path: about</span></span><br><span class="line"><span class="comment">#   per_page: 0</span></span><br><span class="line"><span class="comment">#   order_by: -date</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<h2 id="maintain-homepage">Maintain Homepage</h2>
+<h3 id="hexo-command">Hexo Command</h3>
+<h4 id="one-command-deploy">one command deploy</h4>
+<p>Each time you edit your homepage, and want to deploy, you can run the
+following code. <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure> or <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo d</span><br></pre></td></tr></table></figure></p>
+<h4 id="preview-website">preview website</h4>
+<p>If you want to preview your website locally, you can run
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure> or <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure></p>
+<h3 id="writing-articles">Writing Articles</h3>
+<h4 id="new-article">new article</h4>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;post-name&gt;</span><br></pre></td></tr></table></figure>
+<p>Then, you can write your article in the file
+<code>source/_posts/&lt;post-name&gt;.md</code>.</p>
+<h4 id="article-folding-in-home-page">article folding in home page</h4>
+<p>Add the following code just after what you want to show on the index
+page in your article <code>**.md</code>. <figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure></p>
+<h4 id="tags">tags</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tags: [tag1,tag2]</span><br></pre></td></tr></table></figure>
+<p>or <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags: </span><br><span class="line">    - tag1</span><br><span class="line">    - tag2</span><br></pre></td></tr></table></figure></p>
+<h4 id="categories">categories</h4>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line">    - cate1</span><br><span class="line">    - cate1-1</span><br><span class="line">    - cate1-1-1</span><br></pre></td></tr></table></figure>
+<p>or multiple catecories: <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">categories: </span><br><span class="line">    - [cate1, cate1-1, cate1-1-1]</span><br><span class="line">    - [cate1, cate1-2]</span><br><span class="line">    - [cate2, cate2-1]</span><br><span class="line">    - cate3</span><br></pre></td></tr></table></figure></p>
+<h4 id="math-equation">math equation</h4>
+<div class="tabs" id="math-equation"><ul class="nav-tabs"><li class="tab"><a href="#math-equation-1">Prepare</a></li><li class="tab active"><a href="#math-equation-2">usage</a></li></ul><div class="tab-content"><div class="tab-pane" id="math-equation-1"><ol type="1">
+<li>Open <code>_config.next.yml</code>, and edit <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure> We
+choose mathjax as our render engine. &gt; - For now, NexT provides two
+rendering engines for displaying Math Equations: <a
+target="_blank" rel="noopener" href="https://www.mathjax.org/">MathJax</a> and <a
+target="_blank" rel="noopener" href="https://katex.org/">KaTeX</a>. &gt; - MathJax is a JavaScript
+display engine for mathematics that works in all browsers. It is highly
+modular on input and output. Use MathML, TeX, and ASCIImath as input and
+produce HTML+CSS, SVG, or MathML as output. &gt; - <a
+target="_blank" rel="noopener" href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX is
+a faster</a> math rendering engine compared to MathJax 3. And it could
+survive without JavaScript. But, for now <a
+target="_blank" rel="noopener" href="https://github.com/KaTeX/KaTeX/wiki/Things-that-KaTeX-does-not-(yet)-support">KaTeX
+supports less features</a> than MathJax. Here is a list of <a
+target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">TeX functions supported by
+KaTeX</a>.</li>
+<li>Then you need to uninstall the original renderer
+<code>hexo-renderer-marked</code>, and install
+<code>hexo-renderer-pandoc</code>: <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm un hexo-renderer-marked</span><br><span class="line">npm i hexo-renderer-pandoc</span><br></pre></td></tr></table></figure></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/jgm/pandoc">pandoc</a> is required for
+hexo-renderer-pandoc, here's <a
+target="_blank" rel="noopener" href="https://github.com/jgm/pandoc/blob/master/INSTALL.md">how to
+install pandoc</a>.</li>
+<li>Numbering and Referring Equations in MathJax
+<ol type="1">
+<li>NexT v6.3.0 has added feature to <a
+target="_blank" rel="noopener" href="https://docs.mathjax.org/en/latest/input/tex/eqnumbers.html">automatic
+equation numbering</a> with opportunity to make reference to that
+equations.</li>
+<li>To enable this feature, you need to set <code>mathjax.tags</code> to
+<code>ams</code> in <code>_config.next.yml</code>. <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">ams</span></span><br></pre></td></tr></table></figure></li>
+</ol></li>
+</ol></div><div class="tab-pane active" id="math-equation-2"><p>If this is your first time inserting math equations, please see
+<strong>Prepare</strong> first. 1. Insert to your
+<code>&lt;post-name&gt;.md</code> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mathjax: true </span><br></pre></td></tr></table></figure> 2. Add your equation by
+<code>\(x+y\)</code> or <code>\[x+y\]</code></p></div></div></div>
+<h4 id="images">images</h4>
+<ol type="1">
+<li>Create a folder named <code>&lt;post-name&gt;</code> which is the
+same as your article <code>&lt;post-name&gt;.md</code>
+<ul>
+<li>or you can edit <code>_config.yml</code> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span> </span><br></pre></td></tr></table></figure> Then, each
+time you <code>hexo new &lt;post-name&gt;</code>, there will be a folder
+named <code>&lt;post-name&gt;</code> created at the same time</li>
+</ul></li>
+<li>save your <code>&lt;image-name&gt;.jpg</code> in folder
+<code>./source/_posts/&lt;post-name&gt;/</code> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](&lt;image-name&gt;.jpg)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><mark>Reminder</mark>: using this method, you won't have a correct
+image preview on your home page. So please insert your image after
+<code>&lt;!-- more --&gt;</code></li>
+</ul></li>
+</ol>
+<h4 id="add-tabs">add tabs</h4>
+<ul>
+<li>usage. <a
+target="_blank" rel="noopener" href="https://theme-next.js.org/docs/tag-plugins/tabs.html">(see
+details)</a> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure></li>
+<li>examples
+<ul>
+<li><p>ex <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tabs First unique name, -1 %&#125;</span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab haha --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure></p>
+<div class="tabs" id="third-unique-name"><ul class="nav-tabs"><li class="tab"><a href="#third-unique-name-1">Third unique name 1</a></li><li class="tab"><a href="#third-unique-name-2">Third unique name 2</a></li><li class="tab"><a href="#third-unique-name-3">haha</a></li></ul><div class="tab-content"><div class="tab-pane" id="third-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="third-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="third-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div></li>
+</ul></li>
+<li></li>
+</ul>
+<h3 id="upgrading">Upgrading</h3>
+<h4 id="upgrading-next">upgrading NexT</h4>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;hexo-site&gt;</span><br><span class="line">npm install hexo-theme-next@latest</span><br></pre></td></tr></table></figure>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/Tutorial/" rel="tag"># Tutorial</a>
+              <a href="/tags/Homepage/" rel="tag"># Homepage</a>
+              <a href="/tags/NexT-theme/" rel="tag"># NexT-theme</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/11/11/first-test-page/" rel="prev" title="first-test-page">
+                  <i class="fa fa-angle-left"></i> first-test-page
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/11/12/latex-symbol/" rel="next" title="LaTeX Symbol">
+                  LaTeX Symbol <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2022 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa-solid fa-meteor"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Zitong LU</span>
+  </div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"ams","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+
+</body>
+</html>

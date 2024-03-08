@@ -1,9 +1,19 @@
 ---
 title: Hello World
+date: 2022-11-11 18:00:00
+tags: [Test,Hexo] 
+categories: 
+    - [Test]
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
+<!-- more -->
+
 ## Quick Start
+
+```bash
+$ hexo clean && hexo deploy
+```
 
 ### Create a new post
 
